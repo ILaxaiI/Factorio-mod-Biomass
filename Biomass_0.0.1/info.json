@@ -1,0 +1,11 @@
+{
+    "name": "Biomass",
+    "version": "0.0.1",
+    "title": "Biomass",
+    "author": "Laxai",
+    "homepage": "",
+    "dependencies": ["base >= 1.1.0","? Warheads >= 0.0.11"],
+    "description": "Biter Bases Leave behind Biomass deposits wich you can mine",
+    "factorio_version": "1.1"
+  }
+  
