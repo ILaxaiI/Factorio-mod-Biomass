@@ -92,6 +92,9 @@ data:extend(
     }
 })
 
+if settings.startup["lax-bio-biter-loot"].value then
+
+end
 
 for i,spawner in pairs(data.raw["unit-spawner"]) do
     data.raw["corpse"][spawner.corpse].time_before_removed = 60*5

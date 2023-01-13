@@ -6,7 +6,9 @@ local sounds = require("__base__.prototypes.entity.sounds")
 local createAppearance = create_utils.createAppearance
 local tints = create_utils.tints
 local scourgeColor = {r = 115/256, g = 208/256, b = 125/256, a = 1}
-local scourge_damage = 50
+
+local scourge_damage = settings.startup["Lax-bio-scourge-dmg"].value
+
 data:extend(
 {
     {
@@ -224,7 +226,7 @@ data:extend(
           {
             type = "cluster",
             cluster_count = 250,
-            distance = 60,
+            distance = 40,
             distance_deviation = 60,
             action_delivery =
             {

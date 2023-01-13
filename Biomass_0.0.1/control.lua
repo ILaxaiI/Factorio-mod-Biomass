@@ -1,6 +1,6 @@
-local MAX_RESOURCE = 980
+
 local function amount(factor)
-  return MAX_RESOURCE * factor ^ 1.5 + 20
+  return settings.global["Lax-bio-max-richness"].value * factor ^ 1.5 +  settings.global["Lax-bio-base-richness"].value
 end
 
 script.on_event(defines.events.on_entity_died,
