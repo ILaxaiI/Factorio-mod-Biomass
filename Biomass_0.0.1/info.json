@@ -4,8 +4,8 @@
     "title": "Biomass",
     "author": "Laxai",
     "homepage": "",
-    "dependencies": ["base >= 1.1.0","? Warheads >= 0.0.11"],
-    "description": "Biter Bases Leave behind Biomass deposits wich you can mine",
+    "dependencies": ["base >= 1.1.0","Warheads >= 0.0.11"],
+    "description": "Biter Bases Leave behind Biomass deposits when they perish, wich you can mine\n Use it to power the factory, research new weapons and develop more powerfull modules",
     "factorio_version": "1.1"
   }
   
