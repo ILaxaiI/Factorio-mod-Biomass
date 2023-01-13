@@ -2,10 +2,11 @@
 local limitation = {
     "bio-chip",
     "grow-tissue",
-    "alien-science-pack",
+    "lax-bio-alien-science-pack",
     "bio-fuel-cracking",
 }
 
+table.insert(data.raw["lab"]["lab"].inputs,"lax-bio-alien-science-pack")
 
 for i,module in pairs(data.raw["module"]) do
     -- only add to productivity modules and only if they already have a limitatioin table to not override other mods

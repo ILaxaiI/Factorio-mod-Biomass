@@ -50,7 +50,7 @@ data:extend({
     
       {
         type = "tool",
-        name = "alien-science-pack",
+        name = "lax-bio-alien-science-pack",
         localised_description = {"item-description.science-pack"},
         icon = "__Biomass__/graphics/icons/alien-science-pack.png",
         icon_size = 64, icon_mipmaps = 4,
@@ -65,17 +65,17 @@ data:extend({
 
         type = "item",
         name = "bio-fuel-generator",
-        icon = "__base__/graphics/icons/boiler.png",
+        icon = "__Biomass__/graphics/icons/biofuel-generator.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
-        order = "b[steam-power]-a[boiler]",
+        order = "b[steam-power]-a[biofuel]",
         place_result = "bio-fuel-generator",
         stack_size = 50
       },
       {
         type = "item",
         name = "growth-vat",
-        icon = "__base__/graphics/icons/centrifuge.png",
+        icon = "__Biomass__/graphics/icons/growth-vat.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "production-machine",
         order = "g[growth-bat]",

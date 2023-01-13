@@ -80,16 +80,16 @@ data:extend({
   },
 
 {
-    name = "alien-science-pack",
+    name = "lax-bio-alien-science-pack",
     enabled = false,
     type = "recipe",
     category = "chemistry",
     ingredients = {
-        {type = "item",name = "living-tissue",amount = 1},{type = "item",name = "advanced-circuit",amount = 2},
+        {type = "item",name = "living-tissue",amount = 2},{type = "item",name = "advanced-circuit",amount = 2},
         --{type = "item", name = "wood",amount = 4},
-        {type = "fluid", name = "bio-fuel",amount = 10}
+        {type = "fluid", name = "bio-fuel",amount = 5}
     },
-    result = "alien-science-pack",
+    result = "lax-bio-alien-science-pack",
     amount = 1,
 },
 {
@@ -120,7 +120,7 @@ data:extend({
     energy_required = 10,
     results = {
         {type = "item", name = "living-tissue",amount_min = 10,amount_max = 11},
-        {type = "item", name = "dead-tissue",amount_min = 20,amount_max = 22}
+        {type = "item", name = "dead-tissue",amount_min = 19,amount_max = 20}
     },
     subgroup = "intermediate-product",
     amount = 1

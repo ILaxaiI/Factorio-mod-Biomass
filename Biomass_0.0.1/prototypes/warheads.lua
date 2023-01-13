@@ -5,7 +5,7 @@ local sounds = require("__base__.prototypes.entity.sounds")
 
 local createAppearance = create_utils.createAppearance
 local tints = create_utils.tints
-local scourgeColor = {r = 115/256, g = 178/256, b = 125/256, a = 1}
+local scourgeColor = {r = 115/256, g = 208/256, b = 125/256, a = 1}
 local scourge_damage = 50
 data:extend(
 {
@@ -47,7 +47,7 @@ data:extend(
         {
           {
             type = "cluster",
-            cluster_count = 20,
+            cluster_count = 30,
             distance = 20,
             distance_deviation = 20,
             action_delivery =
@@ -135,7 +135,7 @@ data:extend(
         {
           {
             type = "cluster",
-            cluster_count = 80,
+            cluster_count = 120,
             distance = 40,
             distance_deviation = 40,
             action_delivery =
@@ -223,7 +223,7 @@ data:extend(
         {
           {
             type = "cluster",
-            cluster_count = 150,
+            cluster_count = 250,
             distance = 60,
             distance_deviation = 60,
             action_delivery =
@@ -408,12 +408,12 @@ data:extend(
 warheads["biter-scourge-tiny"] = {
     name = "tiny-scourge-capsule",
     size = "tiny",
-    preciseSize = 2,
+    preciseSize = 1,
     appendName = "-tiny-scourge-capsule",
-    appendOrder = "x-y-z",
+    appendOrder = "d-u-1",
     appearance = createAppearance({type = "can_1", style = 1, tints = {scourgeColor, scourgeColor}}),
     energy_required = 1,
-    cooldown_modifier = .7,
+    cooldown_modifier =1.5,
     tech = "scourge",
     stack_size = 100,
     clamp_position = true,
@@ -454,12 +454,12 @@ warheads["biter-scourge-small"] = {
         size = "small",
         preciseSize = 16,
         appendName = "-small-scourge-capsule",
-        appendOrder = "x-y-z",
+        appendOrder = "d-u-2",
         appearance = createAppearance({type = "can_1", style = 3, tints = {scourgeColor, scourgeColor}}),
         energy_required = 1,
         tech = "scourge",
         stack_size = 100,
-         cooldown_modifier = .7,
+         cooldown_modifier =1.5,
         clamp_position = true,
         ingredients = {
             {"scourge-vial",1},
@@ -498,11 +498,11 @@ warheads["biter-scourge-small"] = {
         size = "medium",
         preciseSize = 24,
         appendName = "-medium-scourge-capsule",
-        appendOrder = "x-y-z",
+        appendOrder = "d-u-3",
         appearance = createAppearance({type = "can_2", style = 1, tints = {scourgeColor,scourgeColor}}),
         energy_required = 1,
         tech = "scourge",
-        cooldown_modifier = .7,
+        cooldown_modifier = 1.5,
         stack_size = 100,
         clamp_position = true,
         ingredients = {
@@ -542,11 +542,11 @@ warheads["biter-scourge-large"] = {
     size = "large",
     preciseSize = 32,
     appendName = "-large-scourge-capsule",
-    appendOrder = "x-y-z",
+    appendOrder = "d-u-4",
     appearance = createAppearance({type = "can_3", style = 1, tints = {scourgeColor,scourgeColor}}),
     energy_required = 1,
     stack_size = 100,
-    cooldown_modifier = .7,
+    cooldown_modifier = 1.5,
     tech = "scourge",
     clamp_position = true,
     ingredients = {

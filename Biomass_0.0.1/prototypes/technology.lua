@@ -24,7 +24,7 @@ data:extend({
     },
     {
     type = "technology",
-    name = "alien-science",
+    name = "lax-bio-alien-science",
     icon_size = 64, icon_mipmaps = 4,
     icon = "__Biomass__/graphics/icons/alien-science-pack.png",
     prerequisites = {"chemical-science-pack","biomass-seperation",},
@@ -42,7 +42,7 @@ data:extend({
     effects = {
             {
             type = "unlock-recipe",
-            recipe = "alien-science-pack"
+            recipe = "lax-bio-alien-science-pack"
             }
         }
     },
@@ -51,7 +51,7 @@ data:extend({
         name = "bio-fuel-creation",
         icon_size = 64, icon_mipmaps = 4,
         icon = "__Biomass__/graphics/icons/bio-fuel.png",
-        prerequisites = {"alien-science"},
+        prerequisites = {"lax-bio-alien-science"},
         unit =
         {
           count = 100,
@@ -60,7 +60,7 @@ data:extend({
             {"automation-science-pack", 1},
             {"logistic-science-pack", 1},
             {"chemical-science-pack",1},
-            {"alien-science-pack",1}
+            {"lax-bio-alien-science-pack",1}
           },
           time = 30
         },
@@ -89,7 +89,7 @@ data:extend({
                 {"automation-science-pack", 1},
                 {"logistic-science-pack", 1},
                 {"chemical-science-pack",1},
-                {"alien-science-pack",1}
+                {"lax-bio-alien-science-pack",1}
               },
               time = 30
             },
@@ -111,7 +111,7 @@ data:extend({
                     name = "growth-vat",
                     icon_size = 256, icon_mipmaps = 4,
                     icon = "__Biomass__/graphics/technology/growth-vat.png",
-                    prerequisites = {"alien-science"},
+                    prerequisites = {"lax-bio-alien-science"},
                     unit =
                     {
                       count = 200,
@@ -120,7 +120,7 @@ data:extend({
                         {"automation-science-pack", 1},
                         {"logistic-science-pack", 1},
                         {"chemical-science-pack",1},
-                        {"alien-science-pack",1},
+                        {"lax-bio-alien-science-pack",1},
                       },
                       time = 30
                     },
@@ -151,7 +151,7 @@ data:extend({
                     {"logistic-science-pack", 1},
                     {"chemical-science-pack",1},
                     {"production-science-pack",1},
-                    {"alien-science-pack",1}
+                    {"lax-bio-alien-science-pack",1}
                   },
                   time = 30
                 },
@@ -185,7 +185,7 @@ data:extend({
                         {"logistic-science-pack", 1},
                         {"military-science-pack",1},
                         {"chemical-science-pack",1},
-                        {"alien-science-pack",1}
+                        {"lax-bio-alien-science-pack",1}
                       },
                       time = 30
                     },
