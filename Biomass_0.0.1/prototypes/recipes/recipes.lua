@@ -52,9 +52,6 @@ data:extend({
 {
     enabled = false,
     name = "bio-fuel-generator",
-    icon = "__base__/graphics/icons/boiler.png",
-    icon_size = 64,
-    icon_mipmaps = 4,
     type="recipe",
     category = "crafting",
     subgroup = "energy",
