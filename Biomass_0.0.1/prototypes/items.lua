@@ -41,7 +41,7 @@ data:extend({
         icon_mipmaps = 4,
         pictures =
         {
-          { size = 64, filename = "__Biomass__/graphics/icons/dead_tissue.png",   scale = 0.25, mipmap_count = 4 }
+          { size = 64, filename = "__Biomass__/graphics/icons/living_tissue.png",   scale = 0.25, mipmap_count = 4 }
         },
         subgroup = "raw-resource",
         order = "b[living-tissue]",
